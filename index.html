@@ -14,11 +14,9 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/OwlCarousel2/2.3.1/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
 
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <link rel="stylesheet" href="css/photo.css">
-
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./dist/bundle.js"></script>
     <title>CLFStudio</title>
 </head>
 
@@ -526,88 +524,8 @@
         </section>
     </div>
 
-    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.slim.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script type="text/javascript">
-        function playPause() {
-            var myVideo = document.querySelector('.daily-life-video');
-            myVideo.paused ? myVideo.play() : myVideo.pause();
-        }
-    </script>
-    <script>
-        //To Readmore
-        var winH = $(window).height();
-        const tabBox = $('.tab:visible');
-        var tabH = tabBox.height();
-
-        if (tabH > winH) {
-            tabBox.css({
-                'height': '500px',
-                'overflow': 'hidden'
-            });
-            $('#btn_readMore').click(
-                function () {
-                    $('.hide_box').remove();
-                    tabBox.css({
-                        'height': 'auto',
-                        'overflow': 'block'
-                    });
-                }
-            );
-        } else {
-            $('.hide_box').remove();
-        }
-    </script>
-    <script>
-        // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var navbarHeight = $('header').outerHeight();
-
-        $(window).scroll(function (event) {
-            didScroll = true;
-        });
-
-        setInterval(function () {
-            if (didScroll) {
-                hasScrolled();
-                didScroll = false;
-            }
-        }, 250);
-
-        function hasScrolled() {
-            var st = $(this).scrollTop();
-
-            // Make sure they scroll more than delta
-            if (Math.abs(lastScrollTop - st) <= delta)
-                return;
-
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight) {
-                // Scroll Down
-                $('header').removeClass('nav-down').addClass('nav-up');
-            } else {
-                // Scroll Up
-                if (st + $(window).height() < $(document).height()) {
-                    $('header').removeClass('nav-up').addClass('nav-down');
-                }
-            }
-
-            lastScrollTop = st;
-        };
-
-        function videoPlay() {
-            $('video').click(
-                function () {
-                    $('video').play();
-                }
-            );
-        }
-    </script>
 </body>
 
 </html>

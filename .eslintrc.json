@@ -11,20 +11,18 @@
     },
     "rules": {
         "indent": [
-            "error",
-            4
+            "off"
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
+        "linebreak-style": "off",
         "quotes": [
             "error",
             "single"
         ],
         "semi": [
-            "error",
-            "always"
-        ]
+            "warn"
+        ],
+        "no-undef": "off",
+        "no-unused-vars": "warn",
+        "quotes": "warn"
     }
 }
