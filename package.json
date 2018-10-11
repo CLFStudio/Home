@@ -1,0 +1,8 @@
+{
+  "name": "Home",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:tjx666/Home.git",
+  "author": "tjx666 <2713151713@qq.com>",
+  "license": "MIT"
+}
