@@ -1,664 +1,536 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CLFStudio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <link rel="stylesheet" href="css/photo.css">
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-        <!-- <link rel="stylesheet/less" type="text/css" href="less/photo.less" /> -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./favicon.ico">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <!-- <script src="js/less.min.js" ></script> -->
-        </head>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/lightbox2/2.10.0/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/OwlCarousel2/2.3.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+
+    <link rel="stylesheet" href="./css/photo.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <title>CLFStudio</title>
+</head>
 
 <body>
-
-
-
-        <header class="nav-down responsive-nav hidden-lg hidden-md">
-            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!--/.navbar-header-->
-            <div id="main-nav" class="collapse navbar-collapse">
-                <nav>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#featured">What we do</a></li>
-                        <li><a href="#Prize">Prize</a></li>
-                        <li><a href="#video">CLF2018 Video</a></li>
-                        <li><a href="#blog">Successive members</a></li>
-                        <li><a href="#contact">Join Us</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <div class="sidebar-navigation hidde-sm hidden-xs">
-            <div class="logo">
-                <a href="#">丛林蜂<em>工作室</em></a>
-            </div>
+    <header class="nav-down responsive-nav hidden-lg hidden-md">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="main-nav" class="collapse navbar-collapse">
             <nav>
-                <ul>
-                    <li>
-                        <a href="#top">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            我们的官网
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#featured">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            我们的工作
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#Prize">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            我们的奖项
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#video">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            我们的日常
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#blog">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            我们的美照
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            加入我们
-                        </a>
-                    </li>
+                <ul class="nav navbar-nav">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#featured">What we do</a></li>
+                    <li><a href="#Prize">Prize</a></li>
+                    <li><a href="#video">CLF2018 Video</a></li>
+                    <li><a href="#blog">Successive members</a></li>
+                    <li><a href="#contact">Join Us</a></li>
                 </ul>
             </nav>
-            <div id="clf_logo">
-
-            </div>
-            
         </div>
+    </header>
 
-        <div class="slider">
-            <div class="Modern-Slider content-section" id="top">
-                <!-- Item -->
-                <div class="item item-1">
-                    <div class="img-fill">
+    <div class="sidebar-navigation hidde-sm hidden-xs">
+        <div class="logo">
+            <a href="#">丛林蜂<em>工作室</em></a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#top">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        我们的官网
+                    </a>
+                </li>
+                <li>
+                    <a href="#featured">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        我们的工作
+                    </a>
+                </li>
+                <li>
+                    <a href="#Prize">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        我们的奖项
+                    </a>
+                </li>
+                <li>
+                    <a href="#video">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        我们的日常
+                    </a>
+                </li>
+                <li>
+                    <a href="#blog">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        我们的美照
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        加入我们
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="clf_logo"></div>
+    </div>
+
+    <div class="slider">
+        <div class="Modern-Slider content-section" id="top">
+            <div class="item item-1">
+                <div class="img-fill">
                     <div class="image"></div>
                     <div class="info">
                         <div>
-                          <h1>丛林蜂工作室</h1>
-                          <p><span>用情怀对待每一件小事</span>  </p>
-                          <div class="white-button button">
-                              <a href="#featured">了解我们</a>
-                          </div>
-                        </div>
+                            <h1>丛林蜂工作室</h1>
+                            <p><span>用情怀对待每一件小事</span> </p>
+                            <div class="white-button button">
+                                <a href="#featured">了解我们</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item item-2">
-                    <div class="img-fill">
-                        <div class="image"></div>
-                        <div class="info">
+            </div>
+
+            <div class="item item-2">
+                <div class="img-fill">
+                    <div class="image"></div>
+                    <div class="info">
                         <div>
-                          <h1>探寻丛林深处</h1>
-                          <p> <span> STIMULATE YOUR UNLIMITED POTENTIAL</span></p>
-                          
-                          <div class="white-button button">
-                              <a href="#featured">了解我们</a>
-                          </div>
-                        </div>
+                            <h1>探寻丛林深处</h1>
+                            <p> <span> STIMULATE YOUR UNLIMITED POTENTIAL</span></p>
+                            <div class="white-button button">
+                                <a href="#featured">了解我们</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item item-3">
-                    <div class="img-fill">
-                        <div class="image"></div>
-                        <div class="info">
+            </div>
+
+            <div class="item item-3">
+                <div class="img-fill">
+                    <div class="image"></div>
+                    <div class="info">
                         <div>
-                          <h1>上善若水<br>人淡如菊</h1>
-                          <p><span>美好的事情即将发生</span></p>
-                          
-                          <div class="white-button button">
-                              <a href="#featured">了解我们</a>
-                          </div>
-                        </div>
+                            <h1>上善若水<br>人淡如菊</h1>
+                            <p><span>美好的事情即将发生</span></p>
+                            <div class="white-button button">
+                                <a href="#featured">了解我们</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- // Item -->
             </div>
         </div>
+    </div>
 
-
-        <div class="page-content">
-            <section id="featured" class="content-section">
-                <div class="section-heading">
-                    <h1>Our<br><em>Works</em></h1>
-                    <p>这是一个专门致力于互联网开发与研究数据科学的学生自主研发工作室。 
+    <div class="page-content">
+        <section id="featured" class="content-section">
+            <div class="section-heading">
+                <h1>Our<br><em>Works</em></h1>
+                <p>这是一个专门致力于互联网开发与研究数据科学的学生自主研发工作室。
                     <br>你还可以干一些别的。</p>
-                </div>
-                <div class="section-content">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/work_1.jpg" alt="work_photo_1">
-                                <div class="featured-button button">
-                                    <a href="#Prize">Web</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Web前端组</h4>
-                                <span>HTML/CSS/JavaScript/..</span>
-                                <p>web组致力于网站前端开发，不仅对作为Web前端开发技术三要素的HTML、CSS和JavaScript有深入学习，也在随着RIA的流行和普及后，对FlashFlexSilverlight、XML和服务器端语言有基本的掌握。
-                                </p>
+            </div>
+            <div class="section-content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/work_1.jpg" alt="work_photo_1">
+                            <div class="featured-button button">
+                                <a href="#Prize">Web</a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/work_2.jpg" alt="work_photo_2">
-                                <div class="featured-button button">
-                                    <a href="#Prize">JAVA</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Java后端组</h4>
-                                <span>JAVA</span>
-                                <p>JAVA是一门通用编程语言，其安全性、简单性
-                                    可移植性使它成为了最受欢迎的编程语言之一。
-                                    网络应用程序开发、企业管理软件、
-                                    嵌入式开发（例如给电视机顶盒写程序）、手机游戏
-                                    （有时候你会看到一些游戏加载界面有个咖啡图标）
-                                    都少不了它的身影。
-                                </p>
+                        <div class="text-content">
+                            <h4>Web前端组</h4>
+                            <span>HTML/CSS/JavaScript/..</span>
+                            <p>web组致力于网站前端开发，不仅对作为Web前端开发技术三要素的HTML、CSS和JavaScript有深入学习，也在随着RIA的流行和普及后，对FlashFlexSilverlight、XML和服务器端语言有基本的掌握。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/work_2.jpg" alt="work_photo_2">
+                            <div class="featured-button button">
+                                <a href="#Prize">JAVA</a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/work_3.jpg" alt="work_photo_3">
-                                <div class="featured-button button">
-                                    <a href="#Prize">AI</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>机器学习与大数据方向AI小组</h4>
-                                <span>ARTIFICIAL INTELLIGENCE</span>
-                                <p>
-                                    大数据和机器学习是目前信息行业快速增长的两大热门领域。
-                                    从过去的信息闭塞发展到现在的数据爆炸，各个领域的数据量
-                                    和数据增长速度都以惊人的跨度增长。大数据下的机器学习能
-                                    更好地挖掘出潜藏在数据中地规律和我们所需要的信息，从而使数据发挥最大化的价值。
-                                </p>
+                        <div class="text-content">
+                            <h4>Java后端组</h4>
+                            <span>JAVA</span>
+                            <p>JAVA是一门通用编程语言，其安全性、简单性
+                                可移植性使它成为了最受欢迎的编程语言之一。
+                                网络应用程序开发、企业管理软件、
+                                嵌入式开发（例如给电视机顶盒写程序）、手机游戏
+                                （有时候你会看到一些游戏加载界面有个咖啡图标）
+                                都少不了它的身影。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/work_3.jpg" alt="work_photo_3">
+                            <div class="featured-button button">
+                                <a href="#Prize">AI</a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/work_4.jpg" alt="work_photo_4">
-                                <div class="featured-button button">
-                                    <a href="#Prize">Training</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>日常培训</h4>
-                                <span>Training</span>
-                                <p>想要技术好，培训少不了，工作室中优秀的学长学姐会不定期地举办培训，
-                                    你可以选定你想学习地方向，学长学姐能为你在学习中提供帮助。工作室也会时常分享有用的技术，当然，对于自主学习能力不错的同学，难度不会太大。
-                                    
-                                </p>
+                        <div class="text-content">
+                            <h4>机器学习与大数据方向AI小组</h4>
+                            <span>ARTIFICIAL INTELLIGENCE</span>
+                            <p>
+                                大数据和机器学习是目前信息行业快速增长的两大热门领域。
+                                从过去的信息闭塞发展到现在的数据爆炸，各个领域的数据量
+                                和数据增长速度都以惊人的跨度增长。大数据下的机器学习能
+                                更好地挖掘出潜藏在数据中地规律和我们所需要的信息，从而使数据发挥最大化的价值。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/work_4.jpg" alt="work_photo_4">
+                            <div class="featured-button button">
+                                <a href="#Prize">Training</a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/work_5.jpg" alt="work_photo_5">
-                                <div class="featured-button button">
-                                    <a href="#Prize">Competition</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>参与比赛</h4>
-                                <span>Competition</span>
-                                <p>工作室以项目为依托，以培训为基础，以“头脑风暴”式的讨论为特色。在三年的发展里，工作室现参与完成的项目近十个，获得国家级奖项十余项及数十个省级比赛奖项。</p>
+                        <div class="text-content">
+                            <h4>日常培训</h4>
+                            <span>Training</span>
+                            <p>想要技术好，培训少不了，工作室中优秀的学长学姐会不定期地举办培训，
+                                你可以选定你想学习地方向，学长学姐能为你在学习中提供帮助。工作室也会时常分享有用的技术，当然，对于自主学习能力不错的同学，难度不会太大。
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/work_5.jpg" alt="work_photo_5">
+                            <div class="featured-button button">
+                                <a href="#Prize">Competition</a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/work_6.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#Prize">Play Game</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>认真学习</h4>
-                                <span>Play Game</span>
-                                <p>是的，我们可以干一些别的</p>
+                        <div class="text-content">
+                            <h4>参与比赛</h4>
+                            <span>Competition</span>
+                            <p>工作室以项目为依托，以培训为基础，以“头脑风暴”式的讨论为特色。在三年的发展里，工作室现参与完成的项目近十个，获得国家级奖项十余项及数十个省级比赛奖项。</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/work_6.jpg" alt="">
+                            <div class="featured-button button">
+                                <a href="#Prize">Play Game</a>
                             </div>
                         </div>
-                        
+                        <div class="text-content">
+                            <h4>认真学习</h4>
+                            <span>Play Game</span>
+                            <p>是的，我们可以干一些别的</p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section id="Prize" class="content-section">
-                <div class="section-heading">
-                    <h1>Our<br><em>Prize</em></h1>
-                    <p>工作室三方向并举，已获得多项国家与国际级荣誉奖项， 
+            </div>
+        </section>
+
+        <section id="Prize" class="content-section">
+            <div class="section-heading">
+                <h1>Our<br><em>Prize</em></h1>
+                <p>工作室三方向并举，已获得多项国家与国际级荣誉奖项，
                     <br>并在国际知名会议与国内核心期刊发表多篇论文.</p>
-                </div>
-                <div class="section-content">
-                    <div class="masonry">
-                        <div class="row">
-                            <div class="item">
-                                <div class="col-md-8">
-                                    <a href="img/prize_big_1.png" data-lightbox="image"><img src="img/prize_1.jpg" alt="image 1"></a>
-                                </div>
-                            </div>
-                            <div class="item second-item">
-                                <div class="col-md-4">
-                                    <a href="img/prize_big_4.jpg" data-lightbox="image"><img src="img/prize_4.jpg" alt="image 2"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="img/prize_big_2.png" data-lightbox="image"><img src="img/prize_2.jpg" alt="image 3"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="img/prize_big_5.jpg" data-lightbox="image"><img src="img/prize_5.jpg" alt="image 4"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-8">
-                                    <a href="img/prize_big_3.jpg" data-lightbox="image"><img src="img/prize_3.jpg" alt="image 5"></a>
-                                </div>
+            </div>
+            <div class="section-content">
+                <div class="masonry">
+                    <div class="row">
+                        <div class="item">
+                            <div class="col-md-8">
+                                <a href="img/prize_big_1.png" data-lightbox="image"><img src="img/prize_1.jpg" alt="image 1"></a>
                             </div>
                         </div>
-                    </div>
-                </div>           
-            </section>
-            <section id="video" class="content-section">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h1>我们的 <em>日常</em></h1>
-                            <p>这是一个轻松愉快的团体，工作室的每一位成员都是很有想法的大学生。</p> 
-                            <p></p>
-                        </div>
-                        <div class="accent-button button">
-                            <a href="#blog">继续往下看</a>
-                            <a href="javascript:playPause();">Play/Pause</a> <br>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="box-video">
-                            <div class="bg-video" >
-                                <!-- <div class="bt-play" click=videoPlay() ></div> -->
+                        <div class="item second-item">
+                            <div class="col-md-4">
+                                <a href="img/prize_big_4.jpg" data-lightbox="image"><img src="img/prize_4.jpg" alt="image 2"></a>
                             </div>
-                            <div class="video-container" style="height: 400px;">
-                                    <video src="video/CLF_2018_3.webm" controls="controls" ></video>
- 
-                 </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4">
+                                <a href="img/prize_big_2.png" data-lightbox="image"><img src="img/prize_2.jpg" alt="image 3"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4">
+                                <a href="img/prize_big_5.jpg" data-lightbox="image"><img src="img/prize_5.jpg" alt="image 4"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-8">
+                                <a href="img/prize_big_3.jpg" data-lightbox="image"><img src="img/prize_3.jpg" alt="image 5"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <script type="text/javascript">
-                 function playPause() {
- 
-       var myVideo = document.getElementsByTagName('video')[0];
- 
-       if (myVideo.paused)
- 
-           myVideo.play();
- 
-       else
- 
-           myVideo.pause();
- 
-       }
- 
-  
- 
-  
- 
+            </div>
+        </section>
 
-               </script>
-            </section>
-            <section id="blog" class="content-section">
-                <div class="section-heading">
-                    <h1>历届成员<br><em>照片</em></h1>
-                    <p>（排名不分先后） 
-                    <br></p>
-                </div>
-                <div class="section-content">
-                    <div class="tabs-content">
-                        <div class="wrapper">
-                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                              <li><a href="#tab1" class="active">12.13.14</a></li>
-                              <li><a href="#tab2">15</a></li>
-                              <li><a href="#tab3">16</a></li>
-                              <li><a href="#tab4">17</a></li>
-                            </ul>
-                            <section id="first-tab-group" class="tabgroup">
-                                <div id="tab1" class="tab">
-                                    <ul class="tabul">
-                                        <li class="ljc">
-                                            <div>李俊诚</div>
-                                        </li>
-                                        <li class="fgh">
-                                            <div>方光欢</div>
-                                        </li>
-                                        <li class="czx">
-                                            <div>陈泽西</div>
-                                        </li>
-                                        <li class="zty">
-                                            <div>周涂艺</div>
-                                        </li>
-                                        <li class="tlx">
-                                            <div>谭亮香</div>
-                                        </li>
-                                        <li class="hmz">
-                                            <div>胡明珠</div>
-                                        </li>
-                                        <li class="yk">
-                                            <div>余昆</div>
-                                        </li>
-                                        <li class="zxl">
-                                            <div>周欣蕾</div>
-                                        </li>
-
-                                        <li class="zxy">
-                                            <div>张晓勇</div>
-                                        </li>
-                                        <li class="zls">
-                                            <div>钟林生</div>
-                                        </li>
-                                        <li class="tss">
-                                            <div>田莎莎</div>
-                                        </li>
-                                        <li class="sy">
-                                            <div>申怡
-                                                </div>
-                                        </li>
-                                        <li class="gyj">
-                                            <div>郭雅洁</div>
-                                        </li>
-                                        <li class="gq">
-                                            <div>高琴</div>
-                                        </li>
-                                        <li class="tqp">
-                                            <div>陶秋坡</div>
-                                        </li>
-                                                         
-                                    </ul>   
-                                    <!-- </ul>
-                                    <ul class="tabul">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>    
-                                    </ul>
-                                    
-                                    <ul class="tabul">
-                                        <li></li>
-                                        <li></li>
-                                    </ul>    
-                                    <ul class="tabul">
-                                        <li></li>
-                                    </ul>   -->
-                                    
-                                </div>
-                                <div id="tab2" class="tab">
-                                    <ul class="tabul">
-                                        <li class="mkf">
-                                            <div>梅康夫</div>
-                                        </li>
-                                        <li class="wyy">
-                                            <div>汪扬艳</div>
-                                        </li>
-                                    
-                                        <li class="ljl">
-                                            <div>李佳丽</div>
-                                        </li>
-                                        
-                                        <li class="ljx">
-                                            <div>李佳馨</div>
-                                        </li>
-                                        
-                                        <li class="myj">
-                                            <div>马玉洁</div>
-                                        </li>
-                                        
-                                        <li class="ymh">
-                                            <div>杨美华</div>
-                                        </li>
-                                        
-                                        <li class="cmj">
-                                            <div>程敏佳</div>
-                                        </li>
-                                        
-                                        <li class="zq">
-                                            <div>周琴</div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="tab3" class="tab">
-                                    <ul class="tabul">
-                                        <li class="gzj">
-                                            <div>高子健</div>
-                                        </li>
-                                        <li class="lxy">
-                                            <div>刘欣阳</div>
-                                        </li>
-                                        <li class="ly">
-                                            <div>陆瑶</div>
-                                        </li>
-                                        <li style="background-color: chartreuse">
-                                            <div ><span>正在更新</span></div>      
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div id="tab4" class="tab">
-                                    <ul class="tabul">
-                                        <li class="xwh">
-                                            <div>熊伍豪</div>
-                                        </li> 
-                                        <li class="dsy">
-                                                <div>董舒莹</div>
-                                        </li>                               
-                                        <li class="fzr">
-                                            <div>符峥嵘</div>
-                                        </li>
-                                        <li class="zht">
-                                            <div>张涵婷</div>
-                                        </li>
-                                        <li class="wsn">
-                                            <div>王少楠</div>
-                                        </li>
-                                        <li class="zch">
-                                            <div>邹春晖</div>
-                                        </li>
-                                        <li class="lsw">
-                                            <div>蓝孙文</div>
-                                        </li>
-                                        <li class="lhz">
-                                            <div>李汉哲</div>
-                                        </li>
-                                        
-                                        <li class="dxl">
-                                            <div>邓晓霖</div>
-                                        </li>
-                                        <li class="lh">
-                                            <div>龙海</div>
-                                        </li>
-                                        <li class="xzt">
-                                            <div>肖紫婷</div>
-                                        </li>
-                                        <li class="lyr">
-                                            <div>吕雅茹</div>
-                                        </li>
-                                        <li class="cq">
-                                            <div>陈晴</div>
-                                        </li>
-                                        <li class="xjp">
-                                            <div>谢佳嫔</div>
-                                        </li>
-                                        <li class="lj">
-                                            <div>梁健</div>
-                                        </li>
-                                        <li class="wjy">
-                                            <div>王俊阳</div>
-                                        </li>
-                                        <li class="zzy">
-                                            <div>张泽宇</div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                
-                            </section> 
-                        </div>
-                        <!-- readmore -->
-                        <div class="hide_box">
-                            <div id="btn_readMore" class="btn">还想看？</div>
-                               
-                            </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="contact" class="content-section">
-               
-                <div id="contact-content">
+        <section id="video" class="content-section">
+            <div class="row">
+                <div class="col-md-12">
                     <div class="section-heading">
-                        <h1>加入<br><em>我们</em></h1>
-                        <p>如果你想了解更多，如果你想加入我们。 
-                        <br>扫描下方二维码，我们欢迎您的到来。</p>
+                        <h1>我们的 <em>日常</em></h1>
+                        <p>这是一个轻松愉快的团体，工作室的每一位成员都是很有想法的大学生。</p>
+                        <p></p>
                     </div>
-                    <div class="section-content">
-                        
-                            <img src="img/CLF_Studio2018.png" alt="CLF_Studio2018">
-                        
+                    <div class="accent-button button">
+                        <a href="#blog">继续往下看</a>
+                        <a href="javascript:playPause();">Play/Pause</a> <br>
                     </div>
                 </div>
-            </section>
-            <!-- <section class="footer">
-                <p></p>
-            </section> -->
-        </div>
+                <div class="col-md-12">
+                    <div class="box-video">
+                        <div class="bg-video">
+                        </div>
+                        <div class="video-container" style="height: 400px;">
+                            <video 
+                                class="daily-life-video"
+                                src="video/CLF_2018_3.webm"
+                                controls="controls" 
+                                preload="metadata"
+                                not-loop
+                                not-autoplay
+                            >
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="blog" class="content-section">
+            <div class="section-heading">
+                <h1>历届成员<br><em>照片</em></h1>
+                <p>（排名不分先后）
+                    <br></p>
+            </div>
+            <div class="section-content">
+                <div class="tabs-content">
+                    <div class="wrapper">
+                        <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                            <li><a href="#tab1" class="active">12.13.14</a></li>
+                            <li><a href="#tab2">15</a></li>
+                            <li><a href="#tab3">16</a></li>
+                            <li><a href="#tab4">17</a></li>
+                        </ul>
+                        <section id="first-tab-group" class="tabgroup">
+                            <div id="tab1" class="tab">
+                                <ul class="tabul">
+                                    <li class="ljc">
+                                        <div>李俊诚</div>
+                                    </li>
+                                    <li class="fgh">
+                                        <div>方光欢</div>
+                                    </li>
+                                    <li class="czx">
+                                        <div>陈泽西</div>
+                                    </li>
+                                    <li class="zty">
+                                        <div>周涂艺</div>
+                                    </li>
+                                    <li class="tlx">
+                                        <div>谭亮香</div>
+                                    </li>
+                                    <li class="hmz">
+                                        <div>胡明珠</div>
+                                    </li>
+                                    <li class="yk">
+                                        <div>余昆</div>
+                                    </li>
+                                    <li class="zxl">
+                                        <div>周欣蕾</div>
+                                    </li>
 
+                                    <li class="zxy">
+                                        <div>张晓勇</div>
+                                    </li>
+                                    <li class="zls">
+                                        <div>钟林生</div>
+                                    </li>
+                                    <li class="tss">
+                                        <div>田莎莎</div>
+                                    </li>
+                                    <li class="sy">
+                                        <div>申怡
+                                        </div>
+                                    </li>
+                                    <li class="gyj">
+                                        <div>郭雅洁</div>
+                                    </li>
+                                    <li class="gq">
+                                        <div>高琴</div>
+                                    </li>
+                                    <li class="tqp">
+                                        <div>陶秋坡</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab2" class="tab">
+                                <ul class="tabul">
+                                    <li class="mkf">
+                                        <div>梅康夫</div>
+                                    </li>
+                                    <li class="wyy">
+                                        <div>汪扬艳</div>
+                                    </li>
 
-    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+                                    <li class="ljl">
+                                        <div>李佳丽</div>
+                                    </li>
 
-    <script src="js/vendor/bootstrap.min.js"></script>
-    
+                                    <li class="ljx">
+                                        <div>李佳馨</div>
+                                    </li>
+
+                                    <li class="myj">
+                                        <div>马玉洁</div>
+                                    </li>
+
+                                    <li class="ymh">
+                                        <div>杨美华</div>
+                                    </li>
+
+                                    <li class="cmj">
+                                        <div>程敏佳</div>
+                                    </li>
+
+                                    <li class="zq">
+                                        <div>周琴</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab3" class="tab">
+                                <ul class="tabul">
+                                    <li class="gzj">
+                                        <div>高子健</div>
+                                    </li>
+                                    <li class="lxy">
+                                        <div>刘欣阳</div>
+                                    </li>
+                                    <li class="ly">
+                                        <div>陆瑶</div>
+                                    </li>
+                                    <li style="background-color: chartreuse">
+                                        <div><span>正在更新</span></div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div id="tab4" class="tab">
+                                <ul class="tabul">
+                                    <li class="xwh">
+                                        <div>熊伍豪</div>
+                                    </li>
+                                    <li class="dsy">
+                                        <div>董舒莹</div>
+                                    </li>
+                                    <li class="fzr">
+                                        <div>符峥嵘</div>
+                                    </li>
+                                    <li class="zht">
+                                        <div>张涵婷</div>
+                                    </li>
+                                    <li class="wsn">
+                                        <div>王少楠</div>
+                                    </li>
+                                    <li class="zch">
+                                        <div>邹春晖</div>
+                                    </li>
+                                    <li class="lsw">
+                                        <div>蓝孙文</div>
+                                    </li>
+                                    <li class="lhz">
+                                        <div>李汉哲</div>
+                                    </li>
+
+                                    <li class="dxl">
+                                        <div>邓晓霖</div>
+                                    </li>
+                                    <li class="lh">
+                                        <div>龙海</div>
+                                    </li>
+                                    <li class="xzt">
+                                        <div>肖紫婷</div>
+                                    </li>
+                                    <li class="lyr">
+                                        <div>吕雅茹</div>
+                                    </li>
+                                    <li class="cq">
+                                        <div>陈晴</div>
+                                    </li>
+                                    <li class="xjp">
+                                        <div>谢佳嫔</div>
+                                    </li>
+                                    <li class="lj">
+                                        <div>梁健</div>
+                                    </li>
+                                    <li class="wjy">
+                                        <div>王俊阳</div>
+                                    </li>
+                                    <li class="zzy">
+                                        <div>张泽宇</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="hide_box">
+                        <div id="btn_readMore" class="btn">还想看？</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div id="contact-content">
+                <div class="section-heading">
+                    <h1>加入<br><em>我们</em></h1>
+                    <p>如果你想了解更多，如果你想加入我们。
+                        <br>扫描下方二维码，我们欢迎您的到来。</p>
+                </div>
+                <div class="section-content">
+                    <img src="img/CLF_Studio2018.png" alt="CLF_Studio2018">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        //To Readmore
-            var winH = $(window).height();
-            const tabBox = $('.tab:visible');
-            var tabH = tabBox.height();
-            
-            if (tabH > winH){
-                tabBox.css({
-                    'height':'500px',
-                    'overflow':'hidden'
-                });
-                $('#btn_readMore').click(
-                    function(){
-                        $('.hide_box').remove();
-                        tabBox.css({
-                            'height':'auto',
-                            'overflow':'block'
-                        });
-                     }    
-                );
-            }else{
-                $('.hide_box').remove();
-            }
-        </script>
-    <script>
-        // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var navbarHeight = $('header').outerHeight();
-
-        $(window).scroll(function(event){
-            didScroll = true;
-        });
-
-        setInterval(function() {
-            if (didScroll) {
-                hasScrolled();
-                didScroll = false;
-            }
-        }, 250);
-
-        function hasScrolled() {
-            var st = $(this).scrollTop();
-            
-            // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
-                return;
-            
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
-                // Scroll Down
-                $('header').removeClass('nav-down').addClass('nav-up');
-            } else {
-                // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
-                    $('header').removeClass('nav-up').addClass('nav-down');
-                }
-            }
-            
-            lastScrollTop = st;
-        };
-        function videoPlay(){
-            $('video').click(
-                function(){
-                    $('video').play();
-                }
-            );
-        }
-    </script>
-    
-
-    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    
-
+    <script src="index.js"></script>
 </body>
+
 </html>
