@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+$(function ($) {
     "use strict";
 
     $(".Modern-Slider").slick({
